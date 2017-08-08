@@ -1,0 +1,111 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HPB_bot - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Avatar-X\AppData\Local\Temp\RSPC669.tmp" with contents
+[
+/nologo /G5 /MTd /W3 /Gm /GX /ZI /Od /I "..\dlls" /I "..\engine" /I "..\common" /I "..\pm_shared" /I "..\\" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "VALVE_DLL" /D "GRAPPLE" /D "AVC" /D "SZ_DLL" /D "CAMERA" /D "RECORD" /FR".\Debug/" /Fp".\Debug/assist.pch" /YX /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"E:\Source\VB\_C++ Code\AVC-Working-2017\dlls\engine.cpp"
+]
+Creating command line "cl.exe @"C:\Users\Avatar-X\AppData\Local\Temp\RSPC669.tmp"" 
+Creating temporary file "C:\Users\Avatar-X\AppData\Local\Temp\RSPC66A.tmp" with contents
+[
+user32.lib advapi32.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:".\Debug/assist.pdb" /debug /machine:I386 /def:".\assist.def" /out:".\Debug/assist.dll" /implib:".\Debug/assist.lib" 
+".\Debug\avbfg.obj"
+".\Debug\avchess.obj"
+".\Debug\avclock.obj"
+".\Debug\avdamage.obj"
+".\Debug\avdance.obj"
+".\Debug\avdll.obj"
+".\Debug\avflare.obj"
+".\Debug\avfountain.obj"
+".\Debug\avfox.obj"
+".\Debug\avgrapple.obj"
+".\Debug\avleash.obj"
+".\Debug\avpaper.obj"
+".\Debug\avpara.obj"
+".\Debug\avrace.obj"
+".\Debug\avradio.obj"
+".\Debug\avrecord.obj"
+".\Debug\avremote.obj"
+".\Debug\avsign.obj"
+".\Debug\avslot.obj"
+".\Debug\avsnow.obj"
+".\Debug\avtractor.obj"
+".\Debug\avtripmine.obj"
+".\Debug\avwep.obj"
+".\Debug\avwritewep.obj"
+".\Debug\bd.obj"
+".\Debug\buildcam.obj"
+".\Debug\cbeam.obj"
+".\Debug\custmotd.obj"
+".\Debug\dll.obj"
+".\Debug\drivecheck.obj"
+".\Debug\engine.obj"
+".\Debug\h_export.obj"
+".\Debug\linkfunc.obj"
+".\Debug\phatmat.obj"
+".\Debug\sadll.obj"
+".\Debug\smoke.obj"
+".\Debug\util.obj"
+]
+Creating command line "link.exe @"C:\Users\Avatar-X\AppData\Local\Temp\RSPC66A.tmp""
+<h3>Output Window</h3>
+Compiling...
+engine.cpp
+Linking...
+Creating temporary file "C:\Users\Avatar-X\AppData\Local\Temp\RSPC765.tmp" with contents
+[
+/nologo /o".\Debug/assist.bsc" 
+".\Debug\avbfg.sbr"
+".\Debug\avchess.sbr"
+".\Debug\avclock.sbr"
+".\Debug\avdamage.sbr"
+".\Debug\avdance.sbr"
+".\Debug\avdll.sbr"
+".\Debug\avflare.sbr"
+".\Debug\avfountain.sbr"
+".\Debug\avfox.sbr"
+".\Debug\avgrapple.sbr"
+".\Debug\avleash.sbr"
+".\Debug\avpaper.sbr"
+".\Debug\avpara.sbr"
+".\Debug\avrace.sbr"
+".\Debug\avradio.sbr"
+".\Debug\avrecord.sbr"
+".\Debug\avremote.sbr"
+".\Debug\avsign.sbr"
+".\Debug\avslot.sbr"
+".\Debug\avsnow.sbr"
+".\Debug\avtractor.sbr"
+".\Debug\avtripmine.sbr"
+".\Debug\avwep.sbr"
+".\Debug\avwritewep.sbr"
+".\Debug\bd.sbr"
+".\Debug\buildcam.sbr"
+".\Debug\cbeam.sbr"
+".\Debug\custmotd.sbr"
+".\Debug\dll.sbr"
+".\Debug\drivecheck.sbr"
+".\Debug\engine.sbr"
+".\Debug\h_export.sbr"
+".\Debug\linkfunc.sbr"
+".\Debug\phatmat.sbr"
+".\Debug\sadll.sbr"
+".\Debug\smoke.sbr"
+".\Debug\util.sbr"]
+Creating command line "bscmake.exe @"C:\Users\Avatar-X\AppData\Local\Temp\RSPC765.tmp""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+assist.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

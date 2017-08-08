@@ -1,0 +1,10 @@
+void TracPrecache();
+void TracShowWep( edict_t *pEntity );
+void TracReload( edict_t *pEntity );
+void TracTick( edict_t *pEntity );
+void TracAttackStart( edict_t *pEntity );
+void TracAttackFly( edict_t *pEntity );
+edict_t *TracMakeBeam( edict_t *pEntity, int r, int g, int b, bool sine, int width, int noise, int brigh);
+void TracBeamSetColor( edict_t *pent, int r1, int g1, int b1, int r2, int g2, int b2);
+void TracHandleCommand( edict_t *pEntity, const char *pcmd, const char *arg1, const char *arg2);
+void TracUndo( edict_t *pEntity );

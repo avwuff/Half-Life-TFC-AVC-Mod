@@ -1,0 +1,12 @@
+bool CamCreate( edict_t *pEntity );
+void CamSpawn( edict_t *pent );
+void CamPrecache();
+void CamSee( edict_t *pEntity );
+void CamOff( edict_t *pEntity );
+void CamThink ( edict_t *pent );
+void CamKill( edict_t *pEntity );
+void CamShowMenu( edict_t *pEntity );
+bool CamCheck ( edict_t *pent );
+void CamHandleMenuItem(edict_t *pEntity, const char *itm, bool ign);
+void CamKillBoom( edict_t *pEntity );
+void CamTouch( edict_t *pEntity, edict_t *pTouch );

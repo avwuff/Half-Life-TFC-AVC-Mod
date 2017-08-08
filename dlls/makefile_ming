@@ -1,0 +1,26 @@
+CPP = gcc
+CPPFLAGS = -march=pentium -O2 -w -I../engine -I../common -I../pm_shared
+
+OBJ = bot.o bot_client.o bot_combat.o dll.o engine.o h_export.o \
+	linkfunc.o util.o waypoint.o
+
+assist.dll:	${OBJ} HPB_bot_ming.def
+	dllwrap -s --def HPB_bot_ming.def --driver-name gcc -o assist.dll \
+		${OBJ} -mwindows
+
+HPB_bot_ming.def:	${OBJ_FILES}
+	dllwrap -s --output-def HPB_bot_ming.def --driver-name gcc -o assist.dll \
+		${OBJ} -mwindows
+	type GiveFnpt.dat >> HPB_bot_ming.def
+
+clean:
+	-del *.o
+	-del *_ming.def
+	-del *.dll	
+
+%.o:	%.cpp
+	${CPP} ${CPPFLAGS} -c $< -o $@
+
+%.o:	%.c
+	${CPP} ${CPPFLAGS} -c $< -o $@
+

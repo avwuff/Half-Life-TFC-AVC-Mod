@@ -1,0 +1,10 @@
+void SnowPrecache();
+void SnowShowWep( edict_t *pEntity );
+void SnowAttackStart( edict_t *pEntity );
+void SnowAttackFly( edict_t *pEntity );
+void SnowBallThink( edict_t *pent );
+void SnowBallTouch( edict_t *pent, edict_t *pentTouch );
+void SnowBlowUp(edict_t *pent);
+void SnowTick( edict_t *pEntity );
+void SnowSpawn( edict_t *pEntity );
+void SnowReload( edict_t *pEntity );
